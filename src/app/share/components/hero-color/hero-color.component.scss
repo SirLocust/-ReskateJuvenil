@@ -1,4 +1,9 @@
 .heroColorContainer{
-  height: 95vh;
+  min-height: 120vh;
   border-top: 8px solid red;
+  border-bottom: 8px solid red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
