@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HeroColorComponent implements OnInit {
   @Input() backgroundColor = 'white';
+  @Input() heigthContainer = '120vh';
   constructor() { }
 
   ngOnInit(): void {

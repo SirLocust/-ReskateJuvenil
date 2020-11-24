@@ -1,6 +1,9 @@
 <div
   class="heroColorContainer"
-  [ngStyle]="{ 'background-color': this.backgroundColor }"
+  [ngStyle]="{
+    'background-color': this.backgroundColor,
+    'min-height': this.heigthContainer
+  }"
 >
   <ng-content></ng-content>
 </div>
