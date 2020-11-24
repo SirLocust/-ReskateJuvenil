@@ -1,0 +1,15 @@
+.containerCarousel{
+  width: 62.5em;
+  
+}
+
+.carousel__item{
+  color: black !important;
+}
+
+
+@media screen and (max-width: 700px){
+  .containerCarousel{
+    width: 30em;
+  } 
+}
