@@ -12,13 +12,29 @@
         class="col-xs-12 col-md-6 d-flex justify-content-center align-items-center"
       >
         <ul class="footer__list">
-          <li class="footer__list__item my-4" *ngFor="let item of itemsList">
+          <li class="footer__list__item my-4">
             <fa-icon
               class="footer__list__item footer__list__item-icon text-center"
-              [icon]="[item.icon[0], item.icon[1]]"
+              [icon]="['fas', 'envelope']"
               size="2x"
             ></fa-icon>
-            <p class="ml-3">{{ item.data }}</p>
+            <p class="ml-3">reskatejuvenil@gmail.com</p>
+          </li>
+          <li class="footer__list__item my-4">
+            <fa-icon
+              class="footer__list__item footer__list__item-icon text-center"
+              [icon]="['fas', 'map-marker']"
+              size="2x"
+            ></fa-icon>
+            <p class="ml-3">Cra. 71g #6D-44, Bogotá</p>
+          </li>
+          <li class="footer__list__item my-4">
+            <fa-icon
+              class="footer__list__item footer__list__item-icon text-center"
+              [icon]="['fas', 'phone-volume']"
+              size="2x"
+            ></fa-icon>
+            <p class="ml-3">311 8837156</p>
           </li>
         </ul>
       </div>
