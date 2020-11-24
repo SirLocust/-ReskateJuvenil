@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'nosotros',
     loadChildren: () => import('src/app/nosotros/nosotros.module').then( (m) => m.NosotrosModule),
   },
+  {
+    path: 'donaciones',
+    loadChildren: () => import('src/app/donation/donation.module').then( (m) => m.DonationModule),
+  },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
