@@ -1,0 +1,40 @@
+.footer{
+  height: 41em;
+}
+.footer__map{
+  width:80%;
+        height:28.125em;
+        border: 0.375em solid red;
+        border-radius: 10px;
+        // allowfullscreen=""
+        // aria-hidden="false"
+        // tabindex="0"
+}
+
+.footer__list{
+  list-style: none;
+  padding-inline-start: 0;
+}
+.footer__list__item{
+  p{
+    display: inline;
+    font-size: 1.5em;
+  }
+  // padding: 16px;
+}
+
+.footer__list__item-icon{
+  display: inline-block;
+  width: 40px ;
+}
+
+
+.footerDesing{
+  height: 50px;
+}
+
+@media screen and (max-width: 700px){
+  .footer{
+    height:800px;
+  }
+}
