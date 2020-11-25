@@ -4,9 +4,9 @@
       <div
         class="col-xs-12 d-flex my-3 justify-content-center align-items-center h-100 w-75"
       >
-        <div class="jumbotron text-center bg-white">
+        <div class="jumbotron text-center bg-primary text-white">
           <h1 class="">Renovando Vidas</h1>
-          <hr class="my-2 bg-primary" />
+          <hr class="my-2 bg-white w-50" />
 
           <p class="text-break">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
@@ -50,7 +50,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <img
-                src="https://cdn.pixabay.com/photo/2019/11/18/02/41/autumn-leaves-4633854_1280.jpg"
+                src="assets/FundacionReskateJuvenil/FundacionImg2/2 (7).jpg"
                 class="mr-3 w-100 align-self-center img-fluid"
                 alt="..."
               />
@@ -83,7 +83,7 @@
             </div>
             <div class="col-xs-12 col-md-4">
               <img
-                src="https://cdn.pixabay.com/photo/2019/11/18/02/41/autumn-leaves-4633854_1280.jpg"
+                src="assets/FundacionReskateJuvenil/FundacionImg2/2 (8).jpg"
                 class="mr-3 w-100 align-self-center img-fluid"
                 alt="..."
               />
@@ -96,7 +96,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <img
-                src="https://cdn.pixabay.com/photo/2019/11/18/02/41/autumn-leaves-4633854_1280.jpg"
+                src="assets/FundacionReskateJuvenil/FundacionImg2/2 (12).jpg"
                 class="mr-3 w-100 align-self-center img-fluid"
                 alt="..."
               />
@@ -129,20 +129,10 @@
       <div
         class="col-xs-12 d-flex my-3 justify-content-center align-items-center h-100 w-75"
       >
-        <!-- <div class="card text-center">
-          <div class="card-header">Featured</div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-          <div class="card-footer text-muted">2 days ago</div>
-        </div> -->
-
-        <app-gallery></app-gallery>
+        <app-gallery
+          [nameCarrousel]="'galeriaFront'"
+          [urlsImgs]="gallery1"
+        ></app-gallery>
       </div>
     </div>
   </div>

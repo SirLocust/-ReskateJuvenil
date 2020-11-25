@@ -1,0 +1,73 @@
+<app-hero-img
+  [backgroundUrlImg]="
+    'https://cdn.pixabay.com/photo/2017/11/12/22/50/human-2944064_960_720.jpg'
+  "
+>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div
+        class="col-xs-12 m-5 d-flex justify-content-center align-items-center text-center"
+      >
+        <div class="jumbotron text-center bg-primary text-white">
+          <h1 class="">NUESTRA GALERIA</h1>
+          <hr class="my-2 bg-white w-50" />
+
+          <p class="text-break">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            delectus ducimus consequatur, harum est officiis expedita maiores,
+            accusantium, ex neque illo aperiam at quaerat reiciendis ad dolores
+            assumenda quod facere. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Vero, eius enim iure ipsum perspiciatis laudantium
+            veritatis minima doloremque explicabo eaque autem nisi animi
+            quibusdam assumenda? Distinctio repellendus provident doloremque
+            veritatis?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</app-hero-img>
+<app-hero-color [backgroundColor]="'white'" [heigthContainer]="'95vh'">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 text-center">
+        <h1 class="container_h1">GALERIA</h1>
+        <hr class="my-4 bg-primary w-50" />
+
+        <app-gallery
+          [nameCarrousel]="'galleryOne'"
+          [urlsImgs]="this.gallery1"
+        ></app-gallery>
+      </div>
+    </div>
+  </div>
+</app-hero-color>
+<app-hero-color [backgroundColor]="'#007bff'" [heigthContainer]="'95vh'">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 text-center">
+        <iframe
+          title=""
+          width="1000"
+          height="700"
+          src="https://www.youtube.com/embed/9yir4IvN044"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</app-hero-color>
+<app-hero-color [backgroundColor]="'white'" [heigthContainer]="'95vh'">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 text-center">
+        <h1 class="container_h1">VIAJE A LA CALERA</h1>
+        <app-gallery
+          [nameCarrousel]="'gallerySecond'"
+          [urlsImgs]="this.gallery2"
+        ></app-gallery>
+      </div>
+    </div>
+  </div>
+</app-hero-color>
